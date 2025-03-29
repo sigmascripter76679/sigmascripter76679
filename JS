@@ -1,0 +1,1 @@
+Javascript:game:Players:LocalPlayer:Stats:Cash:Vaule = money 100000000000000000
