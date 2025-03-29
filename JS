@@ -5,3 +5,4 @@ local money = 1000000000000
 (spawn inf money) =999999999999999
 -- spawn (update money)
 (infinte money script activated)
+Roblox
