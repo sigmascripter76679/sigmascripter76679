@@ -1,4 +1,17 @@
-game.Players.localPlayer.leaderstats.Cash.Changed:Connect(function)(100000000000)
---Change Cash to your stat
-script.Parent.Text = "$" . .1000000000000
-end)
+-- Infinite Money Script
+
+local money = 1000  
+
+-- Function to continuously update money to ensure it stays infinite
+local function updateMoney()
+    while true do
+        -- Update the money to a very large number or the maximum value possible in the game
+        money = 99999999
+
+        wait(0.5)  -- Adjust the delay if needed
+    end
+end
+
+spawn(updateMoney)
+
+print("Infinite Money script activated.")
