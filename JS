@@ -1,1 +1,4 @@
-game.Players.localPlayer.leaderstats.Cash.Changed:Connect(function)(1000000000000)
+game.Players.localPlayer.leaderstats.Cash.Changed:Connect(function)(100000000000)
+--Change Cash to your stat
+script.Parent.Text = "$" . .1000000000000
+end)
