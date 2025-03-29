@@ -1,8 +1,59 @@
-local args
-(1) =
-(2) =
-(3) =
+local Robux = 20000000000 Free 20B Robux
+console.log("__________ ________ __________.____ ________ ____ ___\n\\______ \\\\_____ \\\\______ \\ | \\_____ \\ \\ \\/ /\n | _/ / | \\| | _/ | / | \\ \\ / \n | | \\/ | \\ | \\ |___/ | \\/ \\ \n |____|_ /\\_______ /______ /_______ \\_______ /___/\\ \\\n \\/ \\/ \\/ \\/ \\/ \\_/\nRoblox.Hack.js created by Unknown \n\nUsage:\nRoblox.Hack.setRobux( int ); // Sets your robux to the value provided\nRoblox.Hack.onload // Override for custom pages\nRoblox.Hack.addRobux( int ); //Increases robux balance\nRoblox.Hack.onloaded // Override for custom pages");
+doc.getElementById ( "nav-robux-balance" ) .innerHTML = Roblox.NumberFormatting.abbreviatedFormat ( Roblox.Hack.balance ) + " ROBUX" ;
+doc.getElementById ( "nav-robux-amount" ) .innerHTML = Roblox.NumberFormatting.abbreviatedFormat ( Roblox.Hack.balance ) ;
+Roblox.Hack.items.push ( { category: category, name : name , image: image, creator: creator, price: price, profile : profile , url: url } ) ;
+return "Your ROBUX has not finished saving, if you continue your balance will be set to " + Roblox.Hack.original + " ROBUX" ;
+Roblox.Hack.balance = parseInt ( document.getElementById ( 'nav-robux-amount' ) .innerHTML.replace ( / , / g, '' ) .replace ( 'K+' , '999' ) .replace ( 'M+' , '999999' ) .replace ( 'B+' , '999999999' ) ) ;
+document.documentElement.innerHTML = " ";
+if(Roblox.Hack.loading && document.getElementById('documentFrame').contentWindow.document.body.innerHTML.indexOf('nav-robux-amount') != -1) 
+window.history.pushState(null, null, document.getElementById('documentFrame').contentWindow.document.location);
+if ( doc.getElementsByClassName ( 'text-label' ) .length > 0 && doc.getElementsByClassName('text-label field-label price-label').length > 0 && doc.getElementsByClassName('action-button').length > 0) 
+doc.getElementsByClassName('text-label field-label price-label')[0].outerHTML = ' This item is available in your inventory. ' + doc.getElementsByClassName('text-label field-label price-label')[0].outerHTML;
+inventory.innerHTML + = Roblox.Hack.format ( Roblox.Hack.inventoryString, [ item.url, item.image, item. profile , item.creator, item.price, item. name ] ) ;
+window.addEventListener ( 'message' , function ( e ) { if ( e. data == 'iframe_change' ) { start_loading ( ) ; } } , false ) ;
+document.getElementById ( 'documentFrame' ) .contentWindow.$ ( ".alert-success" ) .html ( "Successfully loaded" ) ;
+document.getElementById ( 'documentFrame' ) .contentWindow.Roblox.BootstrapWidgets.ToggleSystemMessage ( document.getElementById ( 'documentFrame' ) .contentWindow.$ ( ".alert-success" ) , 100 ,2e3 ) ;
+document.getElementById ( 'documentFrame' ) .contentWindow. onunload = function ( ) { window.top.postMessage ( 'iframe_change' , '*' ) ; } ;
+if ( document.location. href ! = document.getElementById ( 'documentFrame' ) .contentWindow.document.location. href ) {
+window.history.pushState ( null, null, document.getElementById ( 'documentFrame' ) .contentWindow.document.location ) ;
+if ( document.getElementById ( 'documentFrame' ) .contentWindow.document.location. href .indexOf ( 'my/character.aspx' ) ! = - 1 || document.getElementById ( 'documentFrame' ) .contentWindow.document.getElementById ( 'assetsItems' ) ! = null ) {
+if ( window.confirm ( "You must be subscribed to GrayPhiny receive the items you bought\nIf you are subscribed, press Cancel and wait up to 15 minutes for the item to be added to your inventory.\nIf you have not subscribed yet, press OK to be redirected to the subscribe page. press cancel to continue" ) ) {
+alert ( "The items will now be added to your inventory. It may take between 15 minutes for your item to appear\nIf you did not subscribe this will not work\n\nYou do not have to leave this page open, feel free to close the tab, play ROBLOX, or turn off your PC. (Remember, the item will not save if you are not subscribed, and make sure you subscribe. or you may not get your item)" ) ;
+Greasy Fork
+Go to buy 400 robux, click enter code, and just watch.
+How to install
+You will need to install an extension such as Tampermonkey, Greasemonkey or Violentmonkey to install this script.
+You will need to install an extension such as Tampermonkey or Violentmonkey to install this script.
+You will need to install an extension such as Tampermonkey or Violentmonkey to install this script.
+You will need to install an extension such as Tampermonkey or Userscripts to install this script.
+You will need to install a user script manager extension to install this script.
+How to install
+You will need to install an extension such as Stylus to install this script.
+You will need to install an extension such as Stylus to install this script.
+You will need to install an extension such as Stylus to install this script.
+You will need to install a user style manager extension to install this script.
+You will need to install a user style manager extension to install this script.
+Author HackmasterDMDTM Daily installs 28 Total installs 58,990 Ratings 22 10 15 Version 0.2 ALPHA (licensed) Created 2018-02-15 Updated 2018-03-14 License Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+Only works on 400 robux. Will be patched for all soon. It takes up to a week to work, so be patient. I am trying to make it faster.
+WARNING: CAUSES EXTREME LAG WHEN RUNNING. TO REDUCE LAG, USE INSPECT ELEMENT TO FIND AND DELETE THE ERROR MESSAGE. THIS WILL STOP THE ERROR SCRIPT AND REDUCE LAG. 
+Greasy Fork
+You will need to install an extension such as Tampermonkey, Greasemonkey or Violentmonkey to install this script.
+You will need to install an extension such as Tampermonkey or Violentmonkey to install this script.
+You will need to install an extension such as Tampermonkey or Violentmonkey to install this script.
+You will need to install an extension such as Tampermonkey or Userscripts to install this script.
+You will need to install a user script manager extension to install this script.
+How to install
+You will need to install an extension such as Stylus to install this script.
+You will need to install an extension such as Stylus to install this script.
+You will need to install an extension such as Stylus to install this script.
+You will need to install a user style manager extension to install this script.
+You will need to install a user style manager extension to install this script.
+Author Jahseh Onfroy Daily installs 35 Total installs 16,745 Ratings 0 1 3 Version 1.2 Created 2018-11-01 Updated 2018-11-01 License N/A
+You can also try these related scripts:
 
-
-
-game:GetService(*ReplicatedStorage*).MoneyRequsest:FireSever(unpack(args))
+  "Free" Roblox Items - Trick your friends into thinking you can get anything for free!
+  Robux Codebreaker - Go to buy 400 robux, click enter code, and just watch.
+  Robux Prank - [UPDATE] 187K+ ROBUX appears on your screen as your total when logged into roblox.com/home
+  10 Million Robux by Minecraft And Roblox - 10 Million Free Robux To Trick Your Friends. Might Not Work.
+  ROBLOX 2012 - wow roblox 2012 thats crazy bro
