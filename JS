@@ -1,1 +1,1 @@
-game:Marble run tycoon 2 Players:LocalPlayer:Stats:Cash:Vaule = money 100000000000000000
+game.Players.localPlayer.leaderstats.Cash.Changed:Connect(function)
