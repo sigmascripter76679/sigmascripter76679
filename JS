@@ -1,8 +1,9 @@
-while wait() do
 local args = {
-    [1] = workspace.Mobs.Bryver:FindFirstChild("Right Arm"),
-    [2] = workspace.Mobs.Bryver.Enemy,
-    [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Scrap Sword")
-}
-game:GetService("ReplicatedStorage").GameRemotes.DamageEvent:FireServer(unpack(args))
+(1) = false.
+(2) = 400.
+(3) = "cash"
+
+
+{
+game:GetService("ReplicatedStorage").MoneyRequset:FireServer(unpack(args))
 end
