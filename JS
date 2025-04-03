@@ -1,5 +1,7 @@
-local Bulid a boat for treasure = Instance.new("ScreenGui")
-local Money = 999999999999("TextButton")
-local AutoFarm = Instance.new("TextButton")
+local args = {
+(1) = false.
+(2) = 400.
+(3) = "Cash"
 {
-end)
+
+game:GetService("ReplicatedStorage").MoneyRequest:FireServer(unpack(args))
