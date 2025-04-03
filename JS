@@ -2,6 +2,6 @@ local args = {
 (1) = false.
 (2) = 400.
 (3) = "Cash"
-{
+[4] = game:GetService("Players").david4vm
 
 game:GetService("ReplicatedStorage").MoneyRequest:FireServer(unpack(args))
