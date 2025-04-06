@@ -1,8 +1,4 @@
-local Robux = {
-(1) = false,
-(2) = 400,
-(3) = "Robux"
-[4] = game:GetService("Players").david4vm
-}
-
-game:GetService("ReplicatedStorage").MoneyRequest:FireServer(unpack(args))
+local plrs = game:GetService("Players")
+for i, v in pairs(plrs:GetChildren()) do
+game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000000, "Robux", v)
+end
