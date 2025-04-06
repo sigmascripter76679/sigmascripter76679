@@ -1,7 +1,7 @@
-local args = {
+local Robux = {
 (1) = false,
 (2) = 400,
-(3) = "Cash",
+(3) = "Robux"
 [4] = game:GetService("Players").david4vm
 
 {
