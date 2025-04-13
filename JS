@@ -1,4 +1,6 @@
-local plrs = game:GetService("Players")
-for i, v in pairs(plrs:GetChildren()) do
-game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000000, "Robux", v)
-end
+local args = {
+[1] = 99999999999 
+
+}
+
+game:GetService("ReplicatedStorage").money:FireServer("Payment")''
