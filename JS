@@ -1,6 +1,20 @@
-local args = {
-[1] = 99999999999 
 
-}
 
-game:GetService("ReplicatedStorage").money:FireServer("Payment")''
+return {
+	Damage = 1000;
+	Description = "Remember to put a description here BEFORE the game is published -Me";
+	MaxAmmo = 15;
+	CurrentAmmo = 1000
+	StoredAmmo = 1000;
+	FireRate = 0.06;
+	AutoFire = false;
+	Range = 6000;
+	Spread = 101;
+	ReloadTime = 2;
+	Bullets = 1;
+	ReloadAnim = "ReloadMagazine";
+	ShootAnim = "ShootBullet";
+	HoldAnim = "Hold";
+	
+
+
