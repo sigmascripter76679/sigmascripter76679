@@ -1,8 +1,10 @@
-local gun = require(game.Players.LocalPlayer.Character:FindFirstOfClass(*Tool*).GunStates
-gun.Damage = math.huge
-gun.MaxAmmo = math.huge
-gun.CurrentAmmo = math.huge
-gun.FireRate = 0
-gun.Range = math.huge
-gun.Spread = 5
-gun.ReloadTime = 0
+local mt = getrawmetatable(game)
+setreadonly(mt, false)
+
+local oldmt = mt.__index
+mt.__index = function(a, b)
+if tostring(a) == "CurrentAmmo" and b == "Value" then 
+return 50 --ANY AMMO
+end
+return oldmt(a, b)
+end
