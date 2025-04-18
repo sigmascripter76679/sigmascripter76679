@@ -1,10 +1,9 @@
-local mt = getrawmetatable(game)
-setreadonly(mt, false)
+local gun = require(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").GunsStates)
+gun.Damage = 50
+gun.Max.Ammo = 9999
+gun.Current.Ammo = 9999
+gun.FireRate = 0
+gun.Range = 9999
+gun.Spread = 1
+gun.ReloadTime = 0
 
-local oldmt = mt.__index
-mt.__index = function(a, b)
-if tostring(a) == "CurrentAmmo" and b == "Value" then 
-return 50 --ANY AMMO
-end
-return oldmt(a, b)
-end
