@@ -1,9 +1,21 @@
-local gun = require(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").GunsStates)
-gun.Damage = 50
-gun.Max.Ammo = 9999
-gun.Current.Ammo = 9999
-gun.FireRate = 0
-gun.Range = 9999
-gun.Spread = 1
-gun.ReloadTime = 0
+Decompiled by Krnl
 
+return {
+	["Damage"] = 100,
+	["Description"] = "Remember to put a description here BEFORE the game is published -Me",
+	["MaxAmmo"] = 1000,
+	["CurrentAmmo"] = 1000
+["StoredAmmo"] = 100,
+	["FireRate"] = 0.01,
+	["AutoFire"] = false,
+	["Range"] = 6000,
+	["Spread"] = 11,
+	["ReloadTime"] = 0,
+	["Bullets"] = 1,
+	["ReloadAnim"] = "ReloadMagazine",
+	["ShootAnim"] = "ShootBullet",
+	["HoldAnim"] = "Hold",
+	["FireSoundId"] = "http://www.roblox.com/asset/?id=2934888024",
+	["SecondarySoundId"] = nil,
+	["ReloadSoundId"] = "http://www.roblox.com/asset/?id=2934887229"
+}
