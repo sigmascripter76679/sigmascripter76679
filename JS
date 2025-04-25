@@ -1,1 +1,5 @@
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-bypass-script-GUI-fixed-28197"))()
+game.Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(char)
+        char.Humanoid.walk speed = 100
+    end)
+end)
