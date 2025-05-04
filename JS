@@ -1,5 +1,1 @@
-game.Players.PlayerAdded:Connect(function(player)
-    player.CharacterAdded:Connect(function(char)
-        char.Humanoid.walk speed = 100
-    end)
-end)
+https://rbxscript.com/scripts-copy/SimpleSpyv3Unofficial-ifDTx
