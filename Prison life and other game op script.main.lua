@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("prison life infinite yield my script", "DarkTheme")
+local Window = Library.CreateLib("prison life and other game op script", "DarkTheme")
 
 local Tab = Window:NewTab("inf yeild")
 
